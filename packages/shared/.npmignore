@@ -1,0 +1,24 @@
+# Source files
+src/
+tsconfig.json
+*.test.ts
+*.test.tsx
+
+# Build artifacts
+.tsbuildinfo
+*.tsbuildinfo
+
+# Development
+node_modules/
+.turbo/
+coverage/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
