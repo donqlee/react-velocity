@@ -54,6 +54,19 @@ importers:
         specifier: ^1.0.0
         version: 1.6.1(@types/node@12.20.55)
 
+  packages/shared:
+    dependencies:
+      react:
+        specifier: ^18.0.0
+        version: 18.3.1
+    devDependencies:
+      '@types/react':
+        specifier: ^18.0.0
+        version: 18.3.23
+      typescript:
+        specifier: ^5.0.0
+        version: 5.8.3
+
 packages:
 
   '@babel/runtime@7.28.2':
